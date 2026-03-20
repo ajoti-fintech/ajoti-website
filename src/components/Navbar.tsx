@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import logo from '../assets/logo white.png'
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false)
@@ -13,7 +14,9 @@ export default function Navbar() {
         {/* Desktop links */}
         <div className="hidden md:flex items-center gap-8">
           <a href="#" className="text-sm text-gray-600 hover:text-teal-600 transition-colors">About Us</a>
-          <a href="#" className="text-sm text-gray-600 hover:text-teal-600 transition-colors">Products</a>
+          <Link to="/products" className="text-sm text-gray-600 hover:text-teal-600 transition-colors">
+            Products
+          </Link>
           <a href="#" className="text-sm text-gray-600 hover:text-teal-600 transition-colors">FAQ</a>
         </div>
 

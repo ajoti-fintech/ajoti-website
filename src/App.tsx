@@ -1,3 +1,5 @@
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import WhySection from './components/WhySection'
@@ -9,10 +11,11 @@ import SmartTriggersSection from './components/SmartTriggersSection'
 import DownloadSection from './components/DownloadSection'
 import Footer from './components/Footer'
 
-function App() {
+import Products from './pages/Products' 
+
+function Home() {
   return (
-    <div className="min-h-screen bg-white font-sans">
-      <Navbar />
+    <>
       <Hero />
       <WhySection />
       <FeaturesSection />
@@ -21,8 +24,24 @@ function App() {
       <StatsSection />
       <SmartTriggersSection />
       <DownloadSection />
-      <Footer />
-    </div>
+    </>
+  )
+}
+
+function App() {
+  return (
+    <Router>
+      <div className="min-h-screen bg-white font-sans">
+        <Navbar />
+
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/products" element={<Products />} />
+        </Routes>
+
+        <Footer />
+      </div>
+    </Router>
   )
 }
 

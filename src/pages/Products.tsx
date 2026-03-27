@@ -47,8 +47,8 @@ const sections: ProductSection[] = [
     bg: 'bg-[#D0E1D9]',
     image1: investment_phone,
     image2: investment_box,
-    image1ClassName: 'absolute right-0 top-1/2 z-0 h-[350px] w-auto -translate-y-1/2 object-contain',
-    image2ClassName: 'absolute right-[217px] top-[150px] z-10 w-[180px] rounded-[14px]',
+    image1ClassName: 'absolute right-0 top-1/2 z-0 h-[360px] w-auto -translate-y-1/2 object-contain',
+    image2ClassName: 'absolute right-[225px] top-[150px] z-10 w-[180px] rounded-[14px]',
   },
   {
     eyebrow: 'FIXED SAVINGS',
@@ -73,23 +73,25 @@ export default function Products() {
               key={section.title}
               className={`${section.bg} overflow-visible`}
             >
-              <div className="grid h-[360px] items-center gap-6 px-8 md:grid-cols-2 md:px-10 lg:px-12">
+              <div className="grid h-[360px] items-stretch gap-6 px-10 md:grid-cols-2 md:px-10 lg:px-12">
 
                 {/* LEFT TEXT */}
-                <div className="max-w-[340px]">
-                  <p className="text-[9px] font-medium uppercase tracking-[0.18em] text-[#55756C]">
-                    {section.eyebrow}
-                  </p>
+                <div className="max-w-[340px] flex flex-col justify-between h-[360px] pt-10 pb-0">
+                  <div>
+                    <p className="text-[9px] font-medium uppercase tracking-[0.18em] text-[#55756C]">
+                      {section.eyebrow}
+                    </p>
 
-                  <h2 className="mt-3 whitespace-pre-line text-[30px] font-semibold leading-[1.12] text-[#111111]">
-                    {section.title}
-                  </h2>
+                    <h2 className="mt-3 whitespace-pre-line text-[30px] font-semibold leading-[1.12] text-[#111111]">
+                      {section.title}
+                    </h2>
 
-                  <p className="mt-4 max-w-[310px] text-[12px] leading-[1.9] text-[#33423D]">
-                    {section.description}
-                  </p>
+                    <p className="mt-4 max-w-[310px] text-[12px] leading-[1.9] text-[#33423D]">
+                      {section.description}
+                    </p>
+                  </div>
 
-                  <button className="mt-5 inline-flex items-center gap-2 bg-[#2F6F61] px-4 py-2.5 text-[12px] font-medium text-white transition hover:bg-[#275D52]">
+                  <button className="inline-flex w-fit items-center gap-2 bg-[#2F6F61] px-4 py-2.5 text-[12px] font-medium text-white transition hover:bg-[#275D52] mb-[-15px]">
                     Get Started
                     <span aria-hidden="true">→</span>
                   </button>

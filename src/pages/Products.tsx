@@ -2,6 +2,8 @@ import phone from '../assets/phone_screen.png'
 import card from '../assets/members.png'
 import target_box from '../assets/target_saving_box.png'
 import target_phone from '../assets/target_saving_phone.png'
+import investment_box from '../assets/investment_box.png'
+import investment_phone from '../assets/investment_phone.png'
 
 type ProductSection = {
   eyebrow: string
@@ -43,10 +45,10 @@ const sections: ProductSection[] = [
     description:
       "Suprebase offers access to curated, inflation-beating investment opportunities tailored to your financial level and goals. Whether you're just starting or diversifying your portfolio, our platform empowers you to invest with clarity.",
     bg: 'bg-[#D0E1D9]',
-    image1: phone,
-    image2: card,
+    image1: investment_phone,
+    image2: investment_box,
     image1ClassName: 'absolute right-0 top-1/2 z-0 h-[350px] w-auto -translate-y-1/2 object-contain',
-    image2ClassName: 'absolute right-[205px] top-[170px] z-10 w-[230px] rounded-[14px]',
+    image2ClassName: 'absolute right-[217px] top-[150px] z-10 w-[180px] rounded-[14px]',
   },
   {
     eyebrow: 'FIXED SAVINGS',

@@ -68,6 +68,7 @@ import StatsSection from './components/StatsSection'
 import SmartTriggersSection from './components/SmartTriggersSection'
 import DownloadSection from './components/DownloadSection'
 import Footer from './components/Footer'
+import AboutUs from "./pages/AboutUs";
 
 function Home() {
   return (

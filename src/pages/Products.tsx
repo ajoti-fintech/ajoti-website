@@ -4,7 +4,6 @@ import target_box from '../assets/target_saving_box.png'
 import target_phone from '../assets/target_saving_phone.png'
 import investment_box from '../assets/investment_box.png'
 import investment_phone from '../assets/investment_phone.png'
-import saving_box from '../assets/saving_card.png'
 import saving_phone from '../assets/saving_phone.png'
 
 type ProductSection = {

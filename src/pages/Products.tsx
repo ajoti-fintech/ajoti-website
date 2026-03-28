@@ -4,6 +4,8 @@ import target_box from '../assets/target_saving_box.png'
 import target_phone from '../assets/target_saving_phone.png'
 import investment_box from '../assets/investment_box.png'
 import investment_phone from '../assets/investment_phone.png'
+import saving_box from '../assets/saving_card.png'
+import saving_phone from '../assets/saving_phone.png'
 
 type ProductSection = {
   eyebrow: string
@@ -56,10 +58,10 @@ const sections: ProductSection[] = [
     description:
       "With Suprebase's Fixed Savings, you can grow your money steadily over a set period with guaranteed, above-inflation returns. Ideal for those looking to save securely without daily market volatility, our fixed savings option ensures disciplined wealth growth.",
     bg: 'bg-[#D3DFDB]',
-    image1: phone,
-    image2: card,
-    image1ClassName: 'absolute right-0 top-1/2 z-0 h-[350px] w-auto -translate-y-1/2 object-contain',
-    image2ClassName: 'absolute right-[205px] top-[170px] z-10 w-[230px] rounded-[14px]',
+    image1: saving_phone,
+    image2: "",
+    image1ClassName: 'absolute right-0 top-[185px] z-0 h-[350px] w-auto -translate-y-1/2 object-contain',
+    image2ClassName: 'hidden',
   },
 ]
 

@@ -69,6 +69,7 @@ import SmartTriggersSection from './components/SmartTriggersSection'
 import DownloadSection from './components/DownloadSection'
 import Footer from './components/Footer'
 import AboutUs from "./pages/AboutUs";
+import Products from "./pages/Products"
 
 function Home() {
   return (
@@ -94,6 +95,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/aboutus" element={<AboutUs />} />
+          <Route path="/products" element={<Products />} />
+
         </Routes>
 
         <Footer />

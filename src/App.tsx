@@ -1,3 +1,5 @@
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { MantineProvider } from '@mantine/core';
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import WhySection from './components/WhySection'
@@ -8,11 +10,11 @@ import StatsSection from './components/StatsSection'
 import SmartTriggersSection from './components/SmartTriggersSection'
 import DownloadSection from './components/DownloadSection'
 import Footer from './components/Footer'
+import Faq from './pages/Faq'
 
-function App() {
+function Home() {
   return (
-    <div className="min-h-screen bg-white font-sans">
-      <Navbar />
+    <>
       <Hero />
       <WhySection />
       <FeaturesSection />
@@ -21,9 +23,23 @@ function App() {
       <StatsSection />
       <SmartTriggersSection />
       <DownloadSection />
-      <Footer />
-    </div>
+    </>
   )
 }
 
-export default App
+export default function App() {
+  return (
+    <MantineProvider>
+      <Router>
+         <div className="min-h-screen bg-white font-sans">
+        <Navbar />
+        <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/faq" element={<Faq />} />
+          </Routes>
+          <Footer />
+      </div>
+      </Router>
+    </MantineProvider>
+  );
+}

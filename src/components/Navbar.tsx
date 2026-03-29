@@ -14,7 +14,7 @@ export default function Navbar() {
         <div className="hidden md:flex items-center gap-8">
           <a href="#" className="text-sm text-gray-600 hover:text-teal-600 transition-colors">About Us</a>
           <a href="#" className="text-sm text-gray-600 hover:text-teal-600 transition-colors">Products</a>
-          <a href="#" className="text-sm text-gray-600 hover:text-teal-600 transition-colors">FAQ</a>
+          <a href="faq" className="text-sm text-gray-600 hover:text-teal-600 transition-colors">FAQ</a>
         </div>
 
         {/* Desktop CTAs */}

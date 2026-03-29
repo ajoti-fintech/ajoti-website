@@ -57,7 +57,7 @@
 // }
 // export default App
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
+import { MantineProvider } from '@mantine/core';
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import WhySection from './components/WhySection'
@@ -89,6 +89,7 @@ function Home() {
 
 function App() {
   return (
+    <MantineProvider>
     <Router>
       <div className="min-h-screen bg-white font-sans">
         <Navbar />
@@ -103,6 +104,7 @@ function App() {
         <Footer />
       </div>
     </Router>
+    </MantineProvider>
   )
 }
 

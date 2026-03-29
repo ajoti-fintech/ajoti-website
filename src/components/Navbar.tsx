@@ -13,8 +13,8 @@ export default function Navbar() {
 
         {/* Desktop links */}
         <div className="hidden md:flex items-center gap-8">
-          <a href="#" className="text-sm text-gray-600 hover:text-teal-600 transition-colors">About Us</a>
-          <a href="#" className="text-sm text-gray-600 hover:text-teal-600 transition-colors">Products</a>
+          <a href="aboutus" className="text-sm text-gray-600 hover:text-teal-600 transition-colors">About Us</a>
+          <a href="products" className="text-sm text-gray-600 hover:text-teal-600 transition-colors">Products</a>
           <a href="faq" className="text-sm text-gray-600 hover:text-teal-600 transition-colors">FAQ</a>
           <Link to="/products" className="text-sm text-gray-600 hover:text-teal-600 transition-colors">
             Products

@@ -68,8 +68,9 @@ import StatsSection from './components/StatsSection'
 import SmartTriggersSection from './components/SmartTriggersSection'
 import DownloadSection from './components/DownloadSection'
 import Footer from './components/Footer'
-import AboutUs from "./pages/AboutUs";
+import AboutUs from "./pages/AboutUs"
 import Products from "./pages/Products"
+import Faq from "./pages/Faq"
 
 function Home() {
   return (
@@ -96,7 +97,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/aboutus" element={<AboutUs />} />
           <Route path="/products" element={<Products />} />
-
+          <Route path="/faq" element={<Faq />} />
         </Routes>
 
         <Footer />

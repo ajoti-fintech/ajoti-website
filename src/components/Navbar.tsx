@@ -19,7 +19,6 @@ export default function Navbar() {
           <Link to="/products" className="text-sm text-gray-600 hover:text-teal-600 transition-colors">
             Products
           </Link>
-          <a href="#" className="text-sm text-gray-600 hover:text-teal-600 transition-colors">FAQ</a>
         </div>
 
         {/* Desktop CTAs */}

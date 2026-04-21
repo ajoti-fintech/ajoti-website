@@ -71,6 +71,9 @@ import Footer from './components/Footer'
 import AboutUs from "./pages/AboutUs"
 import Products from "./pages/Products"
 import Faq from "./pages/Faq"
+import PrivacyPolicy from "./pages/PrivacyPolicy"
+import TermsOfService from "./pages/TermsOfService"
+import AgreementAndDisclosure from "./pages/AgreementAndDisclosure"
 
 function Home() {
   return (
@@ -99,6 +102,9 @@ function App() {
           <Route path="/aboutus" element={<AboutUs />} />
           <Route path="/products" element={<Products />} />
           <Route path="/faq" element={<Faq />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="/terms-of-service" element={<TermsOfService />} />
+          <Route path="/agreement-and-disclosure" element={<AgreementAndDisclosure />} />
         </Routes>
 
         <Footer />

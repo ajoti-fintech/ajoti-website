@@ -7,22 +7,22 @@ export default function DownloadSection() {
       <div className="max-w-6xl mx-auto px-6 pt-14 flex flex-col md:flex-row items-end gap-10">
         {/* Left: text + buttons */}
         <div className="flex-1 pb-14">
-          <p className="text-teal-300 text-xs font-semibold uppercase tracking-widest mb-4">
+           {/* <p className="text-teal-300 text-xs font-semibold uppercase tracking-widest mb-4">
             Download Mobile App
-          </p>
+          </p> */}
           <h2 className="text-3xl font-bold text-white leading-snug">
             Stay at the top of your
             <br />
             game...
           </h2>
-          <p className="mt-3 text-teal-100 text-sm">
+          {/* <p className="mt-3 text-teal-100 text-sm">
             Download the Ajoti mobile app today
-          </p>
+          </p>  */}
 
           {/* Store buttons */}
           <div className="flex flex-col sm:flex-row gap-4 mt-8">
             {/* Google Play */}
-            <a
+            {/* <a
               href="#"
               className="inline-flex items-center gap-3 bg-black text-white px-5 py-3 rounded-xl hover:bg-gray-900 transition-colors"
             >
@@ -33,10 +33,10 @@ export default function DownloadSection() {
                 <span className="text-[10px] uppercase tracking-wide opacity-80">Get it on</span>
                 <p className="text-sm font-semibold">Google Play</p>
               </div>
-            </a>
+            </a> */}
 
             {/* App Store */}
-            <a
+            {/* <a
               href="#"
               className="inline-flex items-center gap-3 bg-black text-white px-5 py-3 rounded-xl hover:bg-gray-900 transition-colors"
             >
@@ -47,7 +47,7 @@ export default function DownloadSection() {
                 <span className="text-[10px] uppercase tracking-wide opacity-80">Get it on</span>
                 <p className="text-sm font-semibold">App Store</p>
               </div>
-            </a>
+            </a> */}
           </div>
         </div>
 

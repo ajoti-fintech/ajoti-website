@@ -44,7 +44,7 @@ const sections: ProductSection[] = [
     eyebrow: 'INVESTMENT',
     title: 'Grow Wealth with\nPurpose',
     description:
-      "Suprebase offers access to curated, inflation-beating investment opportunities tailored to your financial level and goals. Whether you're just starting or diversifying your portfolio, our platform empowers you to invest with clarity.",
+      "Ajoti offers access to curated, inflation-beating investment opportunities tailored to your financial level and goals. Whether you're just starting or diversifying your portfolio, our platform empowers you to invest with clarity.",
     bg: 'bg-[#D0E1D9]',
     image1: investment_phone,
     image2: investment_box,
@@ -55,7 +55,7 @@ const sections: ProductSection[] = [
     eyebrow: 'FIXED SAVINGS',
     title: 'Lock in Stability,\nEarn More',
     description:
-      "With Suprebase's Fixed Savings, you can grow your money steadily over a set period with guaranteed, above-inflation returns. Ideal for those looking to save securely without daily market volatility, our fixed savings option ensures disciplined wealth growth.",
+      "With Ajoti Fixed Savings, you can grow your money steadily over a set period with guaranteed, above-inflation returns. Ideal for those looking to save securely without daily market volatility, our fixed savings option ensures disciplined wealth growth.",
     bg: 'bg-[#D3DFDB]',
     image1: saving_phone,
     image2: "",

@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import heroImg from '../assets/Hero Page IMG.png'
 
 export default function Hero() {
@@ -19,9 +20,9 @@ export default function Hero() {
           <a href="https://user.ajoti.com/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-teal-700 hover:bg-teal-800 text-white text-sm font-semibold px-6 py-3 rounded-md transition-colors">
             Start a Circle
           </a>
-          <button className="inline-flex items-center gap-2 border border-teal-700 text-teal-700 hover:bg-teal-50 text-sm font-semibold px-6 py-3 rounded-md transition-colors">
+          <Link to="/faq" className="inline-flex items-center gap-2 border border-teal-700 text-teal-700 hover:bg-teal-50 text-sm font-semibold px-6 py-3 rounded-md transition-colors">
             Learn More
-          </button>
+          </Link>
         </div>
       </div>
 

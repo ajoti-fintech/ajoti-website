@@ -16,6 +16,7 @@ export default function Navbar() {
           <Link to="/" className="text-sm text-gray-600 hover:text-teal-600 transition-colors">Home</Link>
           <Link to="/aboutus" className="text-sm text-gray-600 hover:text-teal-600 transition-colors">About Us</Link>
           <Link to="/products" className="text-sm text-gray-600 hover:text-teal-600 transition-colors">Products</Link>
+          <Link to="/resources" className="text-sm text-gray-600 hover:text-teal-600 transition-colors">Resources</Link>
           <Link to="/faq" className="text-sm text-gray-600 hover:text-teal-600 transition-colors">FAQ</Link>
         </div>
 
@@ -47,6 +48,7 @@ export default function Navbar() {
           <Link to="/" className="text-sm text-gray-600 hover:text-teal-600 transition-colors" onClick={() => setMenuOpen(false)}>Home</Link>
           <Link to="/aboutus" className="text-sm text-gray-600 hover:text-teal-600 transition-colors" onClick={() => setMenuOpen(false)}>About Us</Link>
           <Link to="/products" className="text-sm text-gray-600 hover:text-teal-600 transition-colors" onClick={() => setMenuOpen(false)}>Products</Link>
+          <Link to="/resources" className="text-sm text-gray-600 hover:text-teal-600 transition-colors" onClick={() => setMenuOpen(false)}>Resources</Link>
           <Link to="/faq" className="text-sm text-gray-600 hover:text-teal-600 transition-colors" onClick={() => setMenuOpen(false)}>FAQ</Link>
 
           <div className="border-t border-gray-100 pt-4 flex gap-3">

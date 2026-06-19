@@ -60,17 +60,19 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { MantineProvider } from '@mantine/core';
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
+import HowItWorks from './components/HowItWorks'
 import WhySection from './components/WhySection'
 import FeaturesSection from './components/FeaturesSection'
 import EarnSection from './components/EarnSection'
 import TrustScoreSection from './components/TrustScoreSection'
-import StatsSection from './components/StatsSection'
+import ResourcesSection from './components/ResourcesSection'
 import SmartTriggersSection from './components/SmartTriggersSection'
 import DownloadSection from './components/DownloadSection'
 import Footer from './components/Footer'
 import AboutUs from "./pages/AboutUs"
 import Products from "./pages/Products"
 import Faq from "./pages/Faq"
+import Resources from "./pages/Resources"
 import PrivacyPolicy from "./pages/PrivacyPolicy"
 import TermsOfService from "./pages/TermsOfService"
 import AgreementAndDisclosure from "./pages/AgreementAndDisclosure"
@@ -79,11 +81,12 @@ function Home() {
   return (
     <>
       <Hero />
+      <HowItWorks />
       <WhySection />
       <FeaturesSection />
       <EarnSection />
       <TrustScoreSection />
-      <StatsSection />
+      <ResourcesSection />
       <SmartTriggersSection />
       <DownloadSection />
     </>
@@ -102,6 +105,7 @@ function App() {
           <Route path="/aboutus" element={<AboutUs />} />
           <Route path="/products" element={<Products />} />
           <Route path="/faq" element={<Faq />} />
+          <Route path="/resources" element={<Resources />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/terms-of-service" element={<TermsOfService />} />
           <Route path="/agreement-and-disclosure" element={<AgreementAndDisclosure />} />

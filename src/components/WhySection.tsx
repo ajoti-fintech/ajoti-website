@@ -3,33 +3,57 @@ import { useInView } from '../hooks/useInView'
 const features = [
   {
     icon: (
-      <svg xmlns="http://www.w3.org/2000/svg" className="w-8 h-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+      <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
         <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
       </svg>
     ),
     title: 'Trusted & Fully Licensed',
-    description:
-      'We operates with full compliance across all relevant regulatory bodies, ensuring our services meet the highest legal ethical standards',
+    description: 'Operating with full regulatory compliance and the highest ethical standards.',
   },
   {
     icon: (
-      <svg xmlns="http://www.w3.org/2000/svg" className="w-8 h-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-        <path strokeLinecap="round" strokeLinejoin="round" d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3" />
+      <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+        <path strokeLinecap="round" strokeLinejoin="round" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
       </svg>
     ),
-    title: 'Integrity at the Core',
-    description:
-      "At Ajoti, we uphold integrity in every aspect of our operations; from internal practices to client relationship. We believe in doing what's right, not just what's easy.",
+    title: 'Zero Hidden Fees',
+    description: 'What you see is what you get. No surprise charges, ever.',
   },
   {
     icon: (
-      <svg xmlns="http://www.w3.org/2000/svg" className="w-8 h-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+      <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+        <path strokeLinecap="round" strokeLinejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" /><path strokeLinecap="round" strokeLinejoin="round" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+      </svg>
+    ),
+    title: 'Full Transparency',
+    description: 'Every contribution and payout is visible to all circle members in real time.',
+  },
+  {
+    icon: (
+      <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+        <path strokeLinecap="round" strokeLinejoin="round" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+      </svg>
+    ),
+    title: 'Community First',
+    description: 'Built around the African tradition of communal saving — now digital and scalable.',
+  },
+  {
+    icon: (
+      <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+        <path strokeLinecap="round" strokeLinejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+      </svg>
+    ),
+    title: 'Flexible Payouts',
+    description: 'Set your own contribution schedule and payout rotation that fits your group.',
+  },
+  {
+    icon: (
+      <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
         <path strokeLinecap="round" strokeLinejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
       </svg>
     ),
-    title: 'Innovation & Accountability',
-    description:
-      'We strive to lead with innovation while maintaining responsible development practices.',
+    title: 'Trust Score System',
+    description: 'Build your financial reputation with every circle you complete successfully.',
   },
 ]
 
@@ -37,44 +61,74 @@ export default function WhySection() {
   const { ref, inView } = useInView()
 
   return (
-    <section className="w-full bg-gray-50 py-16 px-6">
+    <section className="w-full py-24 px-6 bg-white overflow-hidden">
       <div className="max-w-6xl mx-auto">
-        <h2 ref={ref} className={`fade-in-up ${inView ? 'visible' : ''} text-2xl font-bold text-gray-900 mb-12`}>Why Ajoti?</h2>
+        <div className="flex flex-col lg:flex-row gap-16 items-start">
 
-        {/* Feature cards */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 text-center">
-          {features.map((f, i) => (
-            <div key={f.title} className={`fade-in-up delay-${i + 1} ${inView ? 'visible' : ''} flex flex-col items-center gap-4`}>
-              <div className="w-16 h-16 rounded-full bg-teal-500 flex items-center justify-center">
-                {f.icon}
+          {/* Left — sticky headline block */}
+          <div ref={ref} className={`fade-in-left ${inView ? 'visible' : ''} lg:w-5/12 lg:sticky lg:top-28`}>
+            <span className="inline-flex items-center gap-2 text-teal-600 text-xs font-semibold uppercase tracking-widest mb-5">
+              <span className="w-6 h-px bg-teal-500" />
+              Why Ajoti
+            </span>
+
+            <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 leading-tight">
+              Saving together<br />
+              <span className="text-teal-600">is better,</span><br />
+              smarter.
+            </h2>
+
+            <p className="mt-5 text-gray-500 text-base leading-relaxed max-w-sm">
+              Ajoti was built on the principle that communities have always known how to grow wealth together — we just gave it a digital home.
+            </p>
+
+            {/* Trust signal */}
+            <div className="mt-8 p-5 bg-teal-50 border border-teal-100 rounded-2xl">
+              <p className="text-teal-800 text-sm font-semibold leading-snug">
+                "Designed for African communities, trusted by families across 3 countries."
+              </p>
+              <p className="mt-2 text-teal-600 text-xs font-medium">— The Ajoti Team</p>
+            </div>
+
+            {/* CTAs */}
+            <div className="mt-8 flex flex-col sm:flex-row gap-3">
+              <a
+                href="https://user.ajoti.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-2 bg-teal-700 hover:bg-teal-800 text-white text-sm font-bold px-7 py-3.5 rounded-xl transition-colors shadow-md"
+              >
+                Join the Community →
+              </a>
+              <a
+                href="https://user.ajoti.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-2 border border-teal-200 text-teal-700 hover:bg-teal-50 text-sm font-semibold px-7 py-3.5 rounded-xl transition-colors"
+              >
+                Create an Account
+              </a>
+            </div>
+          </div>
+
+          {/* Right — feature grid */}
+          <div className="lg:w-7/12 grid grid-cols-1 sm:grid-cols-2 gap-4">
+            {features.map((f, i) => (
+              <div
+                key={f.title}
+                className={`fade-in-up delay-${Math.min(i + 1, 3)} ${inView ? 'visible' : ''} group flex gap-4 p-5 rounded-2xl border border-gray-100 hover:border-teal-200 hover:shadow-md hover:bg-teal-50/40 transition-all duration-300`}
+              >
+                <div className="shrink-0 w-10 h-10 rounded-xl bg-teal-600 text-white flex items-center justify-center group-hover:bg-teal-700 transition-colors">
+                  {f.icon}
+                </div>
+                <div>
+                  <h3 className="font-bold text-gray-900 text-sm mb-1">{f.title}</h3>
+                  <p className="text-gray-500 text-sm leading-relaxed">{f.description}</p>
+                </div>
               </div>
-              <h3 className="font-semibold text-gray-900 text-base">{f.title}</h3>
-              <p className="text-gray-500 text-sm leading-relaxed">{f.description}</p>
-            </div>
-          ))}
-        </div>
-
-        {/* App store buttons — coming soon */}
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-16">
-          <div className="inline-flex items-center gap-3 bg-black/50 text-white/60 px-5 py-3 rounded-xl cursor-not-allowed select-none">
-            <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" viewBox="0 0 512 512" fill="currentColor">
-              <path d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1zM47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l2.4 1.4 247.2-247v-5.8L47 0zm425.6 218.1L380.4 170 320 230.6l60.4 60.4 72.2-41.9c20.5-11.9 20.5-31.3.8-31.0zM104.6 499l280.8-161.2-60.1-60.1L104.6 499z" />
-            </svg>
-            <div className="text-left leading-tight">
-              <span className="text-[10px] uppercase tracking-wide opacity-60">Coming Soon</span>
-              <p className="text-sm font-semibold">Google Play</p>
-            </div>
+            ))}
           </div>
 
-          <div className="inline-flex items-center gap-3 bg-black/50 text-white/60 px-5 py-3 rounded-xl cursor-not-allowed select-none">
-            <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" viewBox="0 0 814 1000" fill="currentColor">
-              <path d="M788.1 340.9c-5.8 4.5-108.2 62.2-108.2 190.5 0 148.4 130.3 200.9 134.2 202.2-.6 3.2-20.7 71.9-68.7 141.9-42.8 61.6-87.5 123.1-155.5 123.1s-85.5-39.5-164-39.5c-76 0-103.7 40.8-165.9 40.8s-105-57.8-155.5-127.4C46 790.7 0 663 0 541.8c0-207.5 135.4-317.3 270.1-317.3 70.6 0 129.2 46.4 173.4 46.4 42.7 0 109.2-49 192.5-49 31.3 0 113.1 2.9 175.8 70.6zm-171.2-53.2c-40.2-47.3-97.5-78.5-159.8-78.5-66.1 0-128.1 43.5-168.6 43.5-41.8 0-103.2-47-168.1-47C148.9 205.7 0 313.5 0 511.8c0 114.3 44.9 236.9 104.2 315.4 50.9 67.1 97.7 120.8 166.5 120.8 68.3 0 98.6-44 170.8-44 71.7 0 102.7 44 172 44 69 0 117.7-56.8 165.2-121.6C826.9 757.4 814 698.4 814 694.1zM568.2 98.6c28.1-33.9 48.1-81.3 48.1-128.7 0-6.4-.6-12.9-1.9-18.1-45.5 1.9-99.4 30.4-131.1 68.3-25.5 30.4-49 77.2-49 125.2 0 7.1 1.3 14.2 1.9 16.5 2.6.6 6.5 1.3 10.3 1.3 40.8 0 90.9-27.2 121.7-64.5z" />
-            </svg>
-            <div className="text-left leading-tight">
-              <span className="text-[10px] uppercase tracking-wide opacity-60">Coming Soon</span>
-              <p className="text-sm font-semibold">App Store</p>
-            </div>
-          </div>
         </div>
       </div>
     </section>

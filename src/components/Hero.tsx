@@ -22,7 +22,7 @@ export default function Hero() {
 
       <div className="relative max-w-6xl mx-auto px-6 py-20 flex flex-col md:flex-row items-center justify-between gap-12">
         {/* Left content */}
-        <div ref={leftRef} className="fade-in-up flex-1 max-w-lg">
+        <div ref={leftRef} className="fade-in-left flex-1 max-w-lg">
           {/* Badge */}
           <span className="inline-flex items-center gap-2 bg-white/10 border border-white/20 text-white/90 text-xs font-medium px-4 py-1.5 rounded-full mb-6 backdrop-blur-sm">
             <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
@@ -60,12 +60,12 @@ export default function Hero() {
         </div>
 
         {/* Right: phone mockup */}
-        <div ref={rightRef} className="fade-in-up flex-1 flex justify-center relative">
+        <div ref={rightRef} className="fade-in-right flex-1 flex justify-center relative">
           <div className="absolute inset-0 bg-emerald-400/10 rounded-full blur-3xl scale-75 pointer-events-none" />
           <img
             src={heroImg}
             alt="Ajoti app screenshots"
-            className="relative w-full max-w-sm md:max-w-md object-contain drop-shadow-2xl"
+            className="animate-float relative w-full max-w-sm md:max-w-md object-contain drop-shadow-2xl"
           />
         </div>
       </div>

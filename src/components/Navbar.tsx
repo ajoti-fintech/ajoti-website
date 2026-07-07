@@ -8,8 +8,13 @@ export default function Navbar() {
   return (
     <nav className="w-full px-6 py-4 bg-white border-b border-gray-100">
       <div className="max-w-6xl mx-auto flex items-center justify-between">
-        {/* Logo */}
-        <Link to="/"><img src={logo} alt="Ajoti" className="h-10 w-auto object-contain" /></Link>
+        {/* Logo + Beta badge */}
+        <Link to="/" className="flex items-center gap-2">
+          <img src={logo} alt="Ajoti" className="h-10 w-auto object-contain" />
+          <span className="inline-flex items-center px-2 py-0.5 rounded border border-gray-300 bg-gray-100 text-[10px] font-semibold tracking-widest text-gray-500 uppercase select-none">
+            Beta
+          </span>
+        </Link>
 
         {/* Desktop links */}
         <div className="hidden md:flex items-center gap-8">

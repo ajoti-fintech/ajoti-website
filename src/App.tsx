@@ -60,11 +60,15 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { MantineProvider } from '@mantine/core';
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
+import PressSection from './components/PressSection'
 import HowItWorks from './components/HowItWorks'
 import WhySection from './components/WhySection'
 import FeaturesSection from './components/FeaturesSection'
 import EarnSection from './components/EarnSection'
 import TrustScoreSection from './components/TrustScoreSection'
+import SupportersSection from './components/SupportersSection'
+import StatsStrip from './components/StatsStrip'
+import TestimonialSection from './components/TestimonialSection'
 import ResourcesSection from './components/ResourcesSection'
 import SmartTriggersSection from './components/SmartTriggersSection'
 import DownloadSection from './components/DownloadSection'
@@ -81,11 +85,15 @@ function Home() {
   return (
     <>
       <Hero />
+      <StatsStrip />
+      <PressSection />
       <HowItWorks />
       <WhySection />
       <FeaturesSection />
       <EarnSection />
       <TrustScoreSection />
+      <TestimonialSection />
+      <SupportersSection />
       <ResourcesSection />
       <SmartTriggersSection />
       <DownloadSection />

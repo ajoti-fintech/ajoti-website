@@ -33,20 +33,38 @@ export default function EarnSection() {
           {cards.map((card) => (
             <div
               key={card.title}
-              className="border border-gray-100 rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow flex flex-col gap-3"
+              className="border border-gray-100 rounded-2xl p-6 shadow-sm hover:shadow-md hover:border-teal-200 transition-all flex flex-col gap-3"
             >
               <h3 className="text-teal-600 font-semibold text-base">{card.title}</h3>
               <p className="text-gray-500 text-sm leading-relaxed flex-1">
                 {card.description}
               </p>
               <a
-                href="#"
+                href="/faq"
                 className="inline-flex items-center gap-1 text-teal-600 text-sm font-medium hover:text-teal-800 transition-colors"
               >
                 → {card.link}
               </a>
             </div>
           ))}
+        </div>
+
+        {/* CTA */}
+        <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
+          <a
+            href="https://user.ajoti.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 bg-teal-700 hover:bg-teal-800 text-white text-sm font-bold px-8 py-3.5 rounded-xl transition-colors shadow-md"
+          >
+            Start Your First Circle →
+          </a>
+          <a
+            href="/faq"
+            className="inline-flex items-center gap-2 border border-teal-200 text-teal-700 hover:bg-teal-50 text-sm font-semibold px-8 py-3.5 rounded-xl transition-colors"
+          >
+            Learn How It Works
+          </a>
         </div>
       </div>
     </section>

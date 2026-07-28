@@ -1,5 +1,6 @@
 const stats = [
   { value: '500+', label: 'Early Members' },
+  { value: '3 mins', label: 'To Create a Circle' },
   { value: '₦0', label: 'Hidden Fees' },
   { value: '100%', label: 'Community Owned' },
 ]

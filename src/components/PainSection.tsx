@@ -7,7 +7,7 @@ const questions = [
 ]
 
 const solutions = [
-  'Contributions tracked automatically — no spreadsheets.',
+  'Contributions tracked automatically, no spreadsheets.',
   'Member records stay organised in one place.',
   'Everyone has access to the information they need.',
 ]
@@ -33,7 +33,7 @@ export default function PainSection() {
             <p>Every week, you remind members to pay.</p>
             <p>You check bank alerts.</p>
             <p>You update spreadsheets.</p>
-            <p>You answer the same questions — again and again.</p>
+            <p>You answer the same questions, again and again.</p>
           </div>
 
           {/* Speech bubble questions */}
@@ -58,7 +58,7 @@ export default function PainSection() {
             <p className="text-4xl font-extrabold">600+</p>
             <p className="text-teal-200 text-sm mt-1 leading-relaxed">
               contributions to track every year in a 50-member savings group.<br />
-              Hundreds of transactions, reminders and updates — all depending on you.
+              Hundreds of transactions, reminders and updates, all depending on you.
             </p>
           </div>
         </div>
@@ -72,7 +72,7 @@ export default function PainSection() {
               Imagine Getting That Time Back.
             </h3>
             <p className="mt-4 text-gray-600 text-base leading-relaxed">
-              With Ajoti, the administration takes care of itself — so you can focus on what actually matters: your community.
+              With Ajoti, the administration takes care of itself, so you can focus on what actually matters: your community.
             </p>
 
             <div className="mt-8 space-y-4">

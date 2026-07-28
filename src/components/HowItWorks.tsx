@@ -67,7 +67,7 @@ export default function HowItWorks() {
             How Ajoti Works
           </h2>
           <p className="mt-4 text-slate-400 text-base max-w-lg mx-auto leading-relaxed">
-            From setup to payout — get your community saving together in three powerful steps.
+            From setup to payout, get your community saving together in three powerful steps.
           </p>
         </div>
 

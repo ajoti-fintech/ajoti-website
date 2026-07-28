@@ -36,7 +36,7 @@ export default function Hero() {
           </h1>
 
           <p className="mt-5 text-white/70 text-base leading-relaxed max-w-sm">
-            Track contributions automatically, manage payouts with confidence, and give every member real-time access to their savings — all in one place.
+            Track contributions automatically, manage payouts with confidence, and give every member real-time access to their savings, all in one place.
           </p>
 
           <div className="mt-8 flex flex-wrap gap-4">

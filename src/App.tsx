@@ -68,6 +68,8 @@ import EarnSection from './components/EarnSection'
 import TrustScoreSection from './components/TrustScoreSection'
 import SupportersSection from './components/SupportersSection'
 import StatsStrip from './components/StatsStrip'
+import PainSection from './components/PainSection'
+import ChecklistSection from './components/ChecklistSection'
 import TestimonialSection from './components/TestimonialSection'
 import ResourcesSection from './components/ResourcesSection'
 import SmartTriggersSection from './components/SmartTriggersSection'
@@ -87,10 +89,12 @@ function Home() {
       <Hero />
       <StatsStrip />
       <PressSection />
+      <PainSection />
       <HowItWorks />
       <WhySection />
       <FeaturesSection />
       <EarnSection />
+      <ChecklistSection />
       <TrustScoreSection />
       <TestimonialSection />
       <SupportersSection />

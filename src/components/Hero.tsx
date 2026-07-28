@@ -26,18 +26,17 @@ export default function Hero() {
           {/* Badge */}
           <span className="inline-flex items-center gap-2 bg-white/10 border border-white/20 text-white/90 text-xs font-medium px-4 py-1.5 rounded-full mb-6 backdrop-blur-sm">
             <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
-            Community-First Finance
+            Built for Ajo, Esusu &amp; Cooperative Societies
           </span>
 
           <h1 className="text-4xl md:text-5xl font-extrabold text-white leading-tight">
-            One Platform. <br />
-            Many Paths to <br />
-            <span className="text-emerald-300">Financial Freedom.</span>
+            Stop Managing <br />
+            Ajo Manually. <br />
+            <span className="text-emerald-300">Let Ajoti Do It.</span>
           </h1>
 
-          <p className="mt-5 text-white/70 text-sm leading-relaxed max-w-sm">
-            Run savings circles, manage contributions, and organize payouts with ease.
-            Ajoti helps communities save together, stay accountable, and reach their financial goals.
+          <p className="mt-5 text-white/70 text-base leading-relaxed max-w-sm">
+            Track contributions automatically, manage payouts with confidence, and give every member real-time access to their savings — all in one place.
           </p>
 
           <div className="mt-8 flex flex-wrap gap-4">
@@ -47,7 +46,7 @@ export default function Hero() {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-emerald-400 hover:bg-emerald-300 text-teal-900 text-sm font-bold px-6 py-3 rounded-lg transition-colors shadow-lg"
             >
-              Start a Circle →
+              Start Your Free Trial →
             </a>
             <Link
               to="/faq"

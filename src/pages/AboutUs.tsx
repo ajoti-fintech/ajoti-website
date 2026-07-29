@@ -1,6 +1,6 @@
 
 import heroImage1 from '../assets/Hero IMGS.png'
-import businessWomen from '../assets/young-businesswomen.png'
+import businessWomen from '../assets/marketwomen.jpg'
 import EarnUp from '../assets/EarnUp.svg'
 import FixedSaving from '../assets/FixedSaving.svg'
 import GoalOriented from '../assets/GoalOriented.svg'

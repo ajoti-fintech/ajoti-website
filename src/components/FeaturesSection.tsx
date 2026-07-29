@@ -1,4 +1,4 @@
-import img2 from '../assets/img 2.png'
+import img2 from '../assets/marketwomen.jpg'
 import img3 from '../assets/img 3.png'
 
 const features = [

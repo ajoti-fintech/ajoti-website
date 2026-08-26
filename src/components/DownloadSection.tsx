@@ -25,7 +25,7 @@ export default function DownloadSection() {
           {/* Primary CTAs */}
           <div className="flex flex-col sm:flex-row gap-4 mt-8">
             <a
-              href="https://user.ajoti.com/"
+              href="https://app.ajoti.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 bg-emerald-400 hover:bg-emerald-300 text-teal-900 text-sm font-bold px-7 py-3.5 rounded-xl transition-colors shadow-lg"
@@ -33,7 +33,7 @@ export default function DownloadSection() {
               Start Saving Now →
             </a>
             <a
-              href="https://user.ajoti.com/"
+              href="https://app.ajoti.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 border border-white/30 text-white hover:bg-white/10 text-sm font-semibold px-7 py-3.5 rounded-xl transition-colors backdrop-blur-sm"

@@ -68,7 +68,7 @@ export default function TestimonialSection() {
         {/* CTA */}
         <div className={`fade-in-up delay-3 ${inView ? 'visible' : ''} mt-12 text-center`}>
           <a
-            href="https://user.ajoti.com/"
+            href="https://app.ajoti.com/"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-teal-700 hover:bg-teal-800 text-white text-sm font-bold px-8 py-3.5 rounded-xl transition-colors shadow-md"

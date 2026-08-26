@@ -41,7 +41,7 @@ export default function Hero() {
 
           <div className="mt-8 flex flex-wrap gap-4">
             <a
-              href="https://user.ajoti.com/"
+              href="https://app.ajoti.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-emerald-400 hover:bg-emerald-300 text-teal-900 text-sm font-bold px-6 py-3 rounded-lg transition-colors shadow-lg"

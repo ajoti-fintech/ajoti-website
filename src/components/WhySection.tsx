@@ -93,7 +93,7 @@ export default function WhySection() {
             {/* CTAs */}
             <div className="mt-8 flex flex-col sm:flex-row gap-3">
               <a
-                href="https://user.ajoti.com/"
+                href="https://app.ajoti.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 bg-teal-700 hover:bg-teal-800 text-white text-sm font-bold px-7 py-3.5 rounded-xl transition-colors shadow-md"
@@ -101,7 +101,7 @@ export default function WhySection() {
                 Join the Community →
               </a>
               <a
-                href="https://user.ajoti.com/"
+                href="https://app.ajoti.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 border border-teal-200 text-teal-700 hover:bg-teal-50 text-sm font-semibold px-7 py-3.5 rounded-xl transition-colors"

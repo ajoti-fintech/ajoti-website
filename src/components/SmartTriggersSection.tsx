@@ -22,7 +22,7 @@ export default function SmartTriggersSection() {
           </p>
           <div className="mt-6 flex flex-wrap gap-3">
             <a
-              href="https://user.ajoti.com/"
+              href="https://app.ajoti.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-teal-700 hover:bg-teal-800 text-white text-sm font-semibold px-6 py-3 rounded-lg transition-colors shadow-md"
@@ -30,7 +30,7 @@ export default function SmartTriggersSection() {
               Enable Smart Alerts →
             </a>
             <a
-              href="https://user.ajoti.com/"
+              href="https://app.ajoti.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 border border-teal-300 text-teal-700 hover:bg-teal-50 text-sm font-semibold px-6 py-3 rounded-lg transition-colors"

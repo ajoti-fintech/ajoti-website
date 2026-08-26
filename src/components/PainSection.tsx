@@ -105,7 +105,7 @@ export default function PainSection() {
 
             <div className="mt-8 flex flex-col sm:flex-row gap-3">
               <a
-                href="https://user.ajoti.com/"
+                href="https://app.ajoti.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 bg-teal-700 hover:bg-teal-800 text-white text-sm font-bold px-6 py-3 rounded-xl transition-colors shadow-md"
@@ -113,7 +113,7 @@ export default function PainSection() {
                 Start Your Free Trial →
               </a>
               <a
-                href="https://user.ajoti.com/"
+                href="https://app.ajoti.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 border border-teal-300 text-teal-700 hover:bg-teal-100 text-sm font-semibold px-6 py-3 rounded-xl transition-colors"

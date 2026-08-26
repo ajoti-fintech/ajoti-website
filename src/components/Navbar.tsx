@@ -27,10 +27,10 @@ export default function Navbar() {
 
         {/* Desktop CTAs */}
         <div className="hidden md:flex items-center gap-3">
-          <a href="https://user.ajoti.com/" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-gray-600 hover:text-teal-600 transition-colors">
+          <a href="https://app.ajoti.com/" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-gray-600 hover:text-teal-600 transition-colors">
             Login
           </a>
-          <a href="https://user.ajoti.com/" target="_blank" rel="noopener noreferrer" className="text-sm font-semibold bg-teal-700 hover:bg-teal-800 text-white px-5 py-2.5 rounded-md transition-colors">
+          <a href="https://app.ajoti.com/" target="_blank" rel="noopener noreferrer" className="text-sm font-semibold bg-teal-700 hover:bg-teal-800 text-white px-5 py-2.5 rounded-md transition-colors">
             Get Started
           </a>
         </div>
@@ -57,8 +57,8 @@ export default function Navbar() {
           <Link to="/faq" className="text-sm text-gray-600 hover:text-teal-600 transition-colors" onClick={() => setMenuOpen(false)}>FAQ</Link>
 
           <div className="border-t border-gray-100 pt-4 flex gap-3">
-            <a href="https://user.ajoti.com/" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-gray-600 hover:text-teal-600 transition-colors">Login</a>
-            <a href="https://user.ajoti.com/" target="_blank" rel="noopener noreferrer" className="text-sm font-semibold bg-teal-700 hover:bg-teal-800 text-white px-5 py-2.5 rounded-md transition-colors">Get Started</a>
+            <a href="https://app.ajoti.com/" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-gray-600 hover:text-teal-600 transition-colors">Login</a>
+            <a href="https://app.ajoti.com/" target="_blank" rel="noopener noreferrer" className="text-sm font-semibold bg-teal-700 hover:bg-teal-800 text-white px-5 py-2.5 rounded-md transition-colors">Get Started</a>
           </div>
         </div>
       )}

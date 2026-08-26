@@ -36,7 +36,7 @@ export default function VideoSection() {
         {/* CTA below video */}
         <div className={`fade-in-up delay-2 ${inView ? 'visible' : ''} mt-10 flex flex-col sm:flex-row items-center justify-center gap-4`}>
           <a
-            href="https://user.ajoti.com/"
+            href="https://app.ajoti.com/"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-teal-700 hover:bg-teal-800 text-white text-sm font-bold px-8 py-3.5 rounded-xl transition-colors shadow-md"
@@ -44,7 +44,7 @@ export default function VideoSection() {
             Start Your Free Trial →
           </a>
           <a
-            href="https://user.ajoti.com/"
+            href="https://app.ajoti.com/"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 border border-teal-200 text-teal-700 hover:bg-teal-50 text-sm font-semibold px-8 py-3.5 rounded-xl transition-colors"

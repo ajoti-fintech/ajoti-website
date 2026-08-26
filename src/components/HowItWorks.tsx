@@ -112,7 +112,7 @@ export default function HowItWorks() {
         {/* CTA */}
         <div className={`fade-in-up delay-3 ${inView ? 'visible' : ''} mt-14 flex flex-col sm:flex-row items-center justify-center gap-4`}>
           <a
-            href="https://user.ajoti.com/"
+            href="https://app.ajoti.com/"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-emerald-400 hover:bg-emerald-300 text-slate-900 text-sm font-bold px-8 py-3.5 rounded-xl transition-colors shadow-lg"

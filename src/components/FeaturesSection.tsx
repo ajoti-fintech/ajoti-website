@@ -51,7 +51,7 @@ export default function FeaturesSection() {
               <p className="text-gray-500 text-sm leading-relaxed mb-8">
                 {f.description}
               </p>
-              <a href="https://user.ajoti.com/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-teal-700 hover:bg-teal-800 text-white text-sm font-semibold px-6 py-3 rounded-md transition-colors">
+              <a href="https://app.ajoti.com/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-teal-700 hover:bg-teal-800 text-white text-sm font-semibold px-6 py-3 rounded-md transition-colors">
                 {f.cta}
                 <span aria-hidden>→</span>
               </a>

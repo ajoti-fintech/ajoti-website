@@ -74,7 +74,7 @@ export default function Resources() {
             We're creating more tutorials to help you and your community get the most out of Ajoti.
           </p>
           <a
-            href="https://user.ajoti.com/"
+            href="https://app.ajoti.com/"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block mt-6 bg-teal-700 hover:bg-teal-800 text-white text-sm font-semibold px-8 py-3 rounded-lg transition-colors"

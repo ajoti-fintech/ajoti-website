@@ -1,3 +1,5 @@
+import usaNewsLogo from '../assets/usa-news-logo.jpeg'
+
 function TheSunLogo() {
   return (
     <svg viewBox="0 0 140 60" className="h-10 w-auto" aria-label="The Sun">
@@ -68,6 +70,7 @@ function GcuLogo() {
 }
 
 const publications = [
+  { name: 'USA News', logo: <img src={usaNewsLogo} alt="USA News" className="h-10 w-44 object-cover object-center" width={176} height={40} loading="lazy" />, link: null },
   { name: 'The Sun',      logo: <TheSunLogo />,      link: 'https://thesun.ng/ajoti-secures-university-of-utah-backing-partners-ibadan-digital-academy/' },
   { name: 'Vanguard',     logo: <VanguardLogo />,     link: 'https://www.vanguardngr.com/2026/01/ajoti-secures-university-of-utah-backing-partners-ibadan-digital-academy/' },
   { name: 'Business Day', logo: <BusinessDayLogo />,  link: 'https://businessday.ng/news/article/academy-fintech-firm-partner-to-support-inclusive-financial-innovation/' },
@@ -86,18 +89,26 @@ export default function PressSection() {
 
       <div className="relative flex">
         <div className="flex gap-12 items-center animate-marquee whitespace-nowrap">
-          {marqueeItems.map((pub, i) => (
-            <a
+          {marqueeItems.map((pub, i) => {
+            const className = 'inline-flex items-center shrink-0 opacity-60 hover:opacity-100 transition-opacity duration-200 grayscale hover:grayscale-0'
+
+            return pub.link ? (
+              <a
               key={`${pub.name}-${i}`}
               href={pub.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center shrink-0 opacity-60 hover:opacity-100 transition-opacity duration-200 grayscale hover:grayscale-0"
+              className={className}
               aria-label={pub.name}
             >
               {pub.logo}
-            </a>
-          ))}
+              </a>
+            ) : (
+              <span key={`${pub.name}-${i}`} className={className}>
+                {pub.logo}
+              </span>
+            )
+          })}
         </div>
       </div>
     </section>

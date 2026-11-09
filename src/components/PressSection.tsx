@@ -1,4 +1,5 @@
 import usaNewsLogo from '../assets/usa-news-logo.jpeg'
+import ceoTimesLogo from '../assets/ceo-times-logo.jpeg'
 
 function TheSunLogo() {
   return (
@@ -70,6 +71,7 @@ function GcuLogo() {
 }
 
 const publications = [
+  { name: 'CEO Times', logo: <img src={ceoTimesLogo} alt="CEO Times" className="h-10 w-auto" width={198} height={40} loading="lazy" />, link: 'https://ceotimes.com/dr-osho-ademola-joel-and-ajoti-com-are-changing-how-the-world-recognises-financial-responsibility/' },
   { name: 'USA News', logo: <img src={usaNewsLogo} alt="USA News" className="h-10 w-44 object-cover object-center" width={176} height={40} loading="lazy" />, link: 'https://usanews.com/from-research-to-impact-how-dr-osho-ademola-joel-is-transforming-community-finance-through-ajoti-com' },
   { name: 'The Sun',      logo: <TheSunLogo />,      link: 'https://thesun.ng/ajoti-secures-university-of-utah-backing-partners-ibadan-digital-academy/' },
   { name: 'Vanguard',     logo: <VanguardLogo />,     link: 'https://www.vanguardngr.com/2026/01/ajoti-secures-university-of-utah-backing-partners-ibadan-digital-academy/' },

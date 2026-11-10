@@ -1,5 +1,6 @@
 import usaNewsLogo from '../assets/usa-news-logo.jpeg'
 import ceoTimesLogo from '../assets/ceo-times-logo.jpeg'
+import gcuLogo from '../assets/gcu-logo.jpeg'
 
 function TheSunLogo() {
   return (
@@ -58,15 +59,14 @@ function TribuneLogo() {
 
 function GcuLogo() {
   return (
-    <svg viewBox="0 0 120 60" className="h-10 w-auto" aria-label="Glasgow Caledonian University">
-      {/* Circle */}
-      <circle cx="28" cy="28" r="24" fill="none" stroke="#003865" strokeWidth="2.5" />
-      <text x="28" y="34" fill="#003865" fontSize="16" fontWeight="800" fontFamily="Arial, sans-serif" textAnchor="middle">GCU</text>
-      {/* Text to the right */}
-      <text x="58" y="20" fill="#003865" fontSize="7.5" fontFamily="Arial, sans-serif" fontWeight="600">Glasgow</text>
-      <text x="58" y="31" fill="#003865" fontSize="7.5" fontFamily="Arial, sans-serif" fontWeight="600">Caledonian</text>
-      <text x="58" y="42" fill="#003865" fontSize="7.5" fontFamily="Arial, sans-serif" fontWeight="600">University</text>
-    </svg>
+    <img
+      src={gcuLogo}
+      alt="Glasgow Caledonian University"
+      className="h-20 w-auto"
+      width={134}
+      height={80}
+      loading="lazy"
+    />
   )
 }
 
@@ -92,7 +92,7 @@ export default function PressSection() {
       <div className="relative flex">
         <div className="flex gap-12 items-center animate-marquee whitespace-nowrap">
           {marqueeItems.map((pub, i) => {
-            const className = 'inline-flex items-center shrink-0 opacity-60 hover:opacity-100 transition-opacity duration-200 grayscale hover:grayscale-0'
+            const className = 'inline-flex items-center shrink-0 transition-transform duration-200 hover:scale-105'
 
             return pub.link ? (
               <a
